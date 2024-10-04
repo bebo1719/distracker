@@ -30,38 +30,42 @@ Table of Contents
   Ensure your PostgreSQL server is running.
   
  5.Set up environment variables by creating a .env file in the root directory with the following values:
+  env
+   DB_USER=your_postgresql_user
+   DB_PASSWORD=your_postgresql_password
+   DB_NAME=company_db
+   DB_HOST=localhost
+   DB_PORT=5432
 
-env
-Copy code
-DB_USER=your_postgresql_user
-DB_PASSWORD=your_postgresql_password
-DB_NAME=company_db
-DB_HOST=localhost
-DB_PORT=5432
 Usage
-Start the application:
 
-bash
-Copy code
+1.Start the application:
 npm start
-Follow the prompts to:
 
-View all employees, roles, or departments.
-Add a new employee, role, or department.
-Update an employee's role.
+2.Follow the prompts to:
+
+  View all employees, roles, or departments.
+  Add a new employee, role, or department.
+  Update an employee's role.
+
 Features
-View Employees: See a complete list of employees, including their department, role, salary, and manager.
-View Roles: Get a detailed view of all roles, including salary and department.
-View Departments: List all available departments in the company.
-Add Employees, Roles, and Departments: Easily add new employees, roles, or departments to the database.
-Update Employee Roles: Update the role of an existing employee.
+  View Employees: See a complete list of employees, including their department, role, salary, and manager.
+  View Roles: Get a detailed view of all roles, including salary and department.
+  View Departments: List all available departments in the company.
+  Add Employees, Roles, and Departments: Easily add new employees, roles, or departments to the database.
+  Update Employee Roles: Update the role of an existing employee.
+
 Technologies
-Node.js: JavaScript runtime for building the backend.
-Inquirer.js: Command-line prompt interface for user interaction.
-PostgreSQL: Relational database to store employee, role, and department information.
-console.table: Displays formatted tables in the terminal.
+  Node.js: JavaScript runtime for building the backend.
+  Inquirer.js: Command-line prompt interface for user interaction.
+  PostgreSQL: Relational database to store employee, role, and department information.
+  console.table: Displays formatted tables in the terminal.
+
 License
 This project is licensed under the MIT License.
 
 Contributing
 Contributions are welcome! Please feel free to submit a pull request or report any issues you find.
+
+video
+<video src="./image/Untitled video - Made with Clipchamp (1).mp4"></video>
