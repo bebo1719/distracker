@@ -1,0 +1,17 @@
+{
+  "name": "distracker",
+  "version": "1.0.0",
+  "description": "\"A command-line application to manage a company's employee database using Node.js, PostgreSQL, and Inquirer.\",",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.4",
+    "pg": "^8.13.0"
+  }
+}
